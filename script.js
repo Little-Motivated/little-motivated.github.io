@@ -61,9 +61,7 @@ function drawFlower2(canvas, ctx, a) {
   ctx.stroke();
 }
 
-function drawHeart(canvas, ctx) {
-  
-}
+function drawHeart(canvas, ctx) {}
 
 function draw() {
   const canvas = document.getElementById("flower");
