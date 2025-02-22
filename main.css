@@ -1,38 +1,6 @@
-body{
-    background-color: aliceblue;
-}
-
-.container{
-    margin: auto;
-    margin-top: auto;
-    width: 90%;
-    height:fit-content;
-    border: 3px solid #F2A9A2;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 1px 1px 10px #EA8C79;
-}
-
-.container-central{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.container-left{
-    width: 15%;
-    margin-left: 5%;
-    border: 3px solid #F2A9A2;
-    border-radius: 10px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-.container-right{
-    width: 15%;
-    margin-right: 5%;
-    border: 3px solid #F2A9A2;
-    border-radius: 10px;
-    text-align: center;
-    box-sizing: border-box;
+canvas {
+    
+    x: 100;
+    y: 100;
+    border: 1px solid black;
 }
