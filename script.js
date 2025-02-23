@@ -71,7 +71,6 @@ function draw() {
   const canvas = document.getElementById("flower");
   if (canvas.getContext) {
     const ctx = canvas.getContext("2d");
-    ctx.fillRect(10, 20, 30, 40);
 
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;

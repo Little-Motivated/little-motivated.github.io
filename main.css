@@ -4,3 +4,18 @@ canvas {
     y: 100;
     border: 1px solid black;
 }
+
+.head{
+    text-align: center;
+    font-size: 300%;
+    color: red;
+    border: 3px solid rgba(255, 125, 125, 0.374);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
