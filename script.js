@@ -49,18 +49,18 @@ function drawFlower2(canvas, ctx, a) {
 
     theta === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
   }
-  for (let theta = 0; theta <= Math.PI * 2; theta += 0.01) {
+  /*for (let theta = 0; theta <= Math.PI * 2; theta += 0.01) {
     const r =
       Math.cos(theta - pi / 2) * 13 - Math.sin((theta - pi / 2) * a) * 5;
     const x = centerX + r * Math.cos(theta) * scale;
     const y = centerY + r * Math.sin(theta) * scale;
 
     theta === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
-  }
+  }*/
   ctx.closePath();
-  ctx.fillStyle = "rgb(255, 0, 0)";
+  ctx.fillStyle = "hsl(70, 100.00%, 90.20%)";
   ctx.strokeStyle = "rgb(255, 174, 0)";
-  ctx.lineWidth = 3;
+  ctx.lineWidth = 5;
   ctx.fill();
   ctx.stroke();
 }
