@@ -2,10 +2,32 @@ canvas {
     
     x: 100;
     y: 100;
-    border: 1px solid black;
 }
 
-.head{
+.base{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+
+    height: 97vh;
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid red;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.head-text{
     text-align: center;
     font-size: 300%;
     color: red;
@@ -14,8 +36,24 @@ canvas {
     padding: 2%;
 }
 
-.pacifico-regular {
-    font-family: "Pacifico", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.main-text{
+    border: 3px solid rgba(255, 125, 125, 0.374);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(255, 125, 125, 0.719);
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    width: 40%;
+}
+
+.flowers-box{
+    position: relative;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 10%;
+    
+    /*bottom: 2.5%;
+    width: 90%;
+    height: 10%;
+    margin: auto;*/
+}
