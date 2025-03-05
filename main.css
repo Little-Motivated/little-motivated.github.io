@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(211, 101, 130, 0.1);
+}
+
 canvas {
     
     x: 100;
@@ -10,9 +14,11 @@ canvas {
     justify-content: end;
 
     height: 97vh;
-    width: 100%;
+    width: 96vw;
     min-height: 100%;
     border: 1px solid red;
+
+    margin: auto;
 }
 
 .pacifico-regular {

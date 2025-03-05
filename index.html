@@ -13,9 +13,9 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
-    <title>Flower</title>
+    <title>С 8 марта!</title>
 </head>
-<body onload="draw();">
+<body onload="draw();" background="Sky.png">
     <div class="base">
         <div class="head-text pacifico-regular">
             Привет
@@ -26,8 +26,13 @@
             <p>Ещё текст</p>
             <p>And more</p>
         </div>
+        
+        <!--
+        <input type="range" name="A" id="get-parameter-a" min="-10" max="10" step="0.1">
+        <input type="range" name="B" id="get-parameter-b" min="-10" max="10" step="0.1">
+        -->
 
-        <div class="flowers-box">
+        <div class="flowers-box" title="Math.cos(theta + pi) * 13 - Math.sin((theta + pi) * a) * 5;">
             <canvas id="flower" width="300" height="300">text</canvas>
         </div>
     </div>
