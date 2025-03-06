@@ -2,7 +2,6 @@ body{
     background-image: url("media/Sunset.png");
     background-position: left center;
     background-size: cover;
-
 }
 
 
@@ -17,7 +16,9 @@ canvas {
     flex-flow: column;
     justify-content: end;
 
-    height: 100vh;
+    margin: auto;
+
+    height: 96vh;
     width: 98vw;
     border: 1px solid red;
 }
@@ -37,7 +38,7 @@ canvas {
 .head-text{
     text-align: center;
     font-size: 300%;
-    color: red;
+    color: rgb(255, 0, 0);
     border: 3px solid rgba(255, 125, 125, 0.374);
     border-radius: 20px;
     padding: 2%;
