@@ -1,6 +1,10 @@
 body{
-    background-color: rgba(211, 101, 130, 0.1);
+    background-image: url("media/Sunset.png");
+    background-position: left center;
+    background-size: cover;
+
 }
+
 
 canvas {
     
@@ -13,12 +17,9 @@ canvas {
     flex-flow: column;
     justify-content: end;
 
-    height: 97vh;
-    width: 96vw;
-    min-height: 100%;
+    height: 100vh;
+    width: 98vw;
     border: 1px solid red;
-
-    margin: auto;
 }
 
 .pacifico-regular {
