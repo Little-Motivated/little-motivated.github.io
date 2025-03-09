@@ -31,24 +31,24 @@ body{
 
 .head-text{
     text-align: center;
-    font-size: 10vw;
+    font-size: 15vw;
     color: rgb(255, 0, 0);
-    border: 3px solid rgba(255, 125, 125, 0.374);
-    border-radius: 20px;
+    /* border: 3px solid rgba(255, 125, 125, 0.374);
+    border-radius: 20px; */
     padding: 0%;
     margin: auto;
 }
 
 .main-text{
-    border: 3px solid rgba(255, 125, 125, 0.374);
+    /* border: 3px solid rgba(255, 125, 125, 0.374);
     border-radius: 20px;
-    box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 10px; */
     text-align: center;
     width: 70%;
     margin: auto;
     margin-top: 5%;
     color: rgb(255, 0, 0);
-    font-size: 5vw;
+    font-size: 7vw;
     line-height: 200%;
 
 }
