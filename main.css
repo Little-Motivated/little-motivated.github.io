@@ -1,5 +1,5 @@
 body{
-    background-image: url("media/Sunset.png");
+    background-image: url("./media/Sunset.png");
     background-position: left center;
     background-size: cover;
 }
@@ -60,7 +60,7 @@ canvas {
     margin: auto;
     margin-top: 10%;
 
-    background-image: url("/media/Flower.png");
+    background-image: url("./media/Flower.png");
     
     /*bottom: 2.5%;
     width: 90%;
