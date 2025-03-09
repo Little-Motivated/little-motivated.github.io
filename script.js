@@ -79,6 +79,6 @@ function draw() {
     const centerX = canvas.width / 2;
     const centerY = canvas.height / 2;
 
-    drawFlower2(canvas, ctx, a, b);
+    //drawFlower2(canvas, ctx, a, b);
   }
 }
